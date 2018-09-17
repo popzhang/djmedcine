@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medicine Mall</title>
+    
+</head>
+<body>
+    <div style="width:100%;height:300px;background-color:#FF9999;">首页大图展示</div>
+    <table><tr>
+    	{% for i in ls%}
+    	<th>{{i.cata_name}}</th>
+    	{% endfor %}
+    </tr></table>
+    {% block content%}
+
+    {% endblock %}
+	<div style="width:100%;height:40px;background-color:#999999;">呵呵呵呵呵</div>
+</body>
+</html>
+
